@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FCC01B1DBBFE5D008659E5 /* hawaii.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FCC0161DBBFE5D008659E5 /* hawaii.jpg */; };
+		04FCC01C1DBBFE5D008659E5 /* hk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FCC0171DBBFE5D008659E5 /* hk.jpg */; };
+		04FCC01D1DBBFE5D008659E5 /* kyoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FCC0181DBBFE5D008659E5 /* kyoto.jpg */; };
+		04FCC01E1DBBFE5D008659E5 /* sydney.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FCC0191DBBFE5D008659E5 /* sydney.jpg */; };
+		04FCC01F1DBBFE5D008659E5 /* ny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04FCC01A1DBBFE5D008659E5 /* ny.jpg */; };
+		04FCC0211DBC0001008659E5 /* FirstViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FCC0201DBC0001008659E5 /* FirstViewControllerTableViewCell.swift */; };
+		81219C9D1DBC5A780094D9C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81219C9C1DBC5A780094D9C7 /* HomeViewController.swift */; };
+		81219C9F1DBC5CB60094D9C7 /* HomeViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81219C9E1DBC5CB60094D9C7 /* HomeViewControllerTableViewCell.swift */; };
+		81219CAA1DBC69840094D9C7 /* APP Logo Final.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA01DBC69840094D9C7 /* APP Logo Final.png */; };
+		81219CAB1DBC69840094D9C7 /* Explore Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA11DBC69840094D9C7 /* Explore Bottom.png */; };
+		81219CAC1DBC69840094D9C7 /* Journal Bottom0.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA21DBC69840094D9C7 /* Journal Bottom0.png */; };
+		81219CAD1DBC69840094D9C7 /* People Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA31DBC69840094D9C7 /* People Bottom.png */; };
+		81219CAE1DBC69840094D9C7 /* Place1.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA41DBC69840094D9C7 /* Place1.png */; };
+		81219CAF1DBC69840094D9C7 /* Place2.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA51DBC69840094D9C7 /* Place2.png */; };
+		81219CB01DBC69840094D9C7 /* Place3.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA61DBC69840094D9C7 /* Place3.png */; };
+		81219CB11DBC69840094D9C7 /* 透明Air ticket.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA71DBC69840094D9C7 /* 透明Air ticket.png */; };
+		81219CB21DBC69840094D9C7 /* 透明Attraction.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA81DBC69840094D9C7 /* 透明Attraction.png */; };
+		81219CB31DBC69840094D9C7 /* 透明Hotel.png in Resources */ = {isa = PBXBuildFile; fileRef = 81219CA91DBC69840094D9C7 /* 透明Hotel.png */; };
+		816067871DBBE6EC003580EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816067861DBBE6EC003580EE /* AppDelegate.swift */; };
+		816067891DBBE6EC003580EE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816067881DBBE6EC003580EE /* FirstViewController.swift */; };
+		8160678B1DBBE6EC003580EE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160678A1DBBE6EC003580EE /* SecondViewController.swift */; };
+		8160678E1DBBE6EC003580EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8160678C1DBBE6EC003580EE /* Main.storyboard */; };
+		816067901DBBE6EC003580EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8160678F1DBBE6EC003580EE /* Assets.xcassets */; };
+		816067931DBBE6EC003580EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816067911DBBE6EC003580EE /* LaunchScreen.storyboard */; };
+		8160679E1DBBE6EC003580EE /* CX_TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160679D1DBBE6EC003580EE /* CX_TravelTests.swift */; };
+		816067A91DBBE6EC003580EE /* CX_TravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816067A81DBBE6EC003580EE /* CX_TravelUITests.swift */; };
+		DCB46B1E1DBC24F60027A272 /* kyoto-is-home-to-incredible-temples-such-as-the-byodo-in-buddhist-temple-a-unesco-world-heritage-site.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCB46B1D1DBC24F60027A272 /* kyoto-is-home-to-incredible-temples-such-as-the-byodo-in-buddhist-temple-a-unesco-world-heritage-site.jpg */; };
+		DCB46B201DBC25420027A272 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DCB46B1F1DBC25420027A272 /* 1.jpeg */; };
+		DCB46B221DBC25AC0027A272 /* Kyoto Attractions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DCB46B211DBC25AC0027A272 /* Kyoto Attractions.jpg */; };
+		DCB46B241DBC4B8E0027A272 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB46B231DBC4B8E0027A272 /* share.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8160679A1DBBE6EC003580EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8160677B1DBBE6EC003580EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816067821DBBE6EC003580EE;
+			remoteInfo = "CX Travel";
+		};
+		816067A51DBBE6EC003580EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8160677B1DBBE6EC003580EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 816067821DBBE6EC003580EE;
+			remoteInfo = "CX Travel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FCC0161DBBFE5D008659E5 /* hawaii.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hawaii.jpg; sourceTree = "<group>"; };
+		04FCC0171DBBFE5D008659E5 /* hk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hk.jpg; sourceTree = "<group>"; };
+		04FCC0181DBBFE5D008659E5 /* kyoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyoto.jpg; sourceTree = "<group>"; };
+		04FCC0191DBBFE5D008659E5 /* sydney.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sydney.jpg; sourceTree = "<group>"; };
+		04FCC01A1DBBFE5D008659E5 /* ny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ny.jpg; sourceTree = "<group>"; };
+		04FCC0201DBC0001008659E5 /* FirstViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		81219C9C1DBC5A780094D9C7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		81219C9E1DBC5CB60094D9C7 /* HomeViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		81219CA01DBC69840094D9C7 /* APP Logo Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APP Logo Final.png"; sourceTree = "<group>"; };
+		81219CA11DBC69840094D9C7 /* Explore Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Explore Bottom.png"; sourceTree = "<group>"; };
+		81219CA21DBC69840094D9C7 /* Journal Bottom0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Journal Bottom0.png"; sourceTree = "<group>"; };
+		81219CA31DBC69840094D9C7 /* People Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "People Bottom.png"; sourceTree = "<group>"; };
+		81219CA41DBC69840094D9C7 /* Place1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Place1.png; sourceTree = "<group>"; };
+		81219CA51DBC69840094D9C7 /* Place2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Place2.png; sourceTree = "<group>"; };
+		81219CA61DBC69840094D9C7 /* Place3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Place3.png; sourceTree = "<group>"; };
+		81219CA71DBC69840094D9C7 /* 透明Air ticket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "透明Air ticket.png"; sourceTree = "<group>"; };
+		81219CA81DBC69840094D9C7 /* 透明Attraction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "透明Attraction.png"; sourceTree = "<group>"; };
+		81219CA91DBC69840094D9C7 /* 透明Hotel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "透明Hotel.png"; sourceTree = "<group>"; };
+		816067831DBBE6EC003580EE /* CX Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CX Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816067861DBBE6EC003580EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		816067881DBBE6EC003580EE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8160678A1DBBE6EC003580EE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8160678D1DBBE6EC003580EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8160678F1DBBE6EC003580EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816067921DBBE6EC003580EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		816067941DBBE6EC003580EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816067991DBBE6EC003580EE /* CX TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CX TravelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8160679D1DBBE6EC003580EE /* CX_TravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CX_TravelTests.swift; sourceTree = "<group>"; };
+		8160679F1DBBE6EC003580EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816067A41DBBE6EC003580EE /* CX TravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CX TravelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		816067A81DBBE6EC003580EE /* CX_TravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CX_TravelUITests.swift; sourceTree = "<group>"; };
+		816067AA1DBBE6EC003580EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB46B1D1DBC24F60027A272 /* kyoto-is-home-to-incredible-temples-such-as-the-byodo-in-buddhist-temple-a-unesco-world-heritage-site.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kyoto-is-home-to-incredible-temples-such-as-the-byodo-in-buddhist-temple-a-unesco-world-heritage-site.jpg"; sourceTree = "<group>"; };
+		DCB46B1F1DBC25420027A272 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		DCB46B211DBC25AC0027A272 /* Kyoto Attractions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kyoto Attractions.jpg"; sourceTree = "<group>"; };
+		DCB46B231DBC4B8E0027A272 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		816067801DBBE6EC003580EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816067961DBBE6EC003580EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816067A11DBBE6EC003580EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8160677A1DBBE6EC003580EE = {
+			isa = PBXGroup;
+			children = (
+				816067851DBBE6EC003580EE /* CX Travel */,
+				8160679C1DBBE6EC003580EE /* CX TravelTests */,
+				816067A71DBBE6EC003580EE /* CX TravelUITests */,
+				816067841DBBE6EC003580EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		816067841DBBE6EC003580EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				816067831DBBE6EC003580EE /* CX Travel.app */,
+				816067991DBBE6EC003580EE /* CX TravelTests.xctest */,
+				816067A41DBBE6EC003580EE /* CX TravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816067851DBBE6EC003580EE /* CX Travel */ = {
+			isa = PBXGroup;
+			children = (
+				81219CA01DBC69840094D9C7 /* APP Logo Final.png */,
+				81219CA11DBC69840094D9C7 /* Explore Bottom.png */,
+				81219CA21DBC69840094D9C7 /* Journal Bottom0.png */,
+				81219CA31DBC69840094D9C7 /* People Bottom.png */,
+				81219CA41DBC69840094D9C7 /* Place1.png */,
+				81219CA51DBC69840094D9C7 /* Place2.png */,
+				81219CA61DBC69840094D9C7 /* Place3.png */,
+				81219CA71DBC69840094D9C7 /* 透明Air ticket.png */,
+				81219CA81DBC69840094D9C7 /* 透明Attraction.png */,
+				81219CA91DBC69840094D9C7 /* 透明Hotel.png */,
+				816067861DBBE6EC003580EE /* AppDelegate.swift */,
+				816067881DBBE6EC003580EE /* FirstViewController.swift */,
+				81219C9C1DBC5A780094D9C7 /* HomeViewController.swift */,
+				8160678A1DBBE6EC003580EE /* SecondViewController.swift */,
+				8160678C1DBBE6EC003580EE /* Main.storyboard */,
+				04FCC0201DBC0001008659E5 /* FirstViewControllerTableViewCell.swift */,
+				81219C9E1DBC5CB60094D9C7 /* HomeViewControllerTableViewCell.swift */,
+				8160678F1DBBE6EC003580EE /* Assets.xcassets */,
+				816067911DBBE6EC003580EE /* LaunchScreen.storyboard */,
+				DCB46B1D1DBC24F60027A272 /* kyoto-is-home-to-incredible-temples-such-as-the-byodo-in-buddhist-temple-a-unesco-world-heritage-site.jpg */,
+				DCB46B1F1DBC25420027A272 /* 1.jpeg */,
+				04FCC0161DBBFE5D008659E5 /* hawaii.jpg */,
+				04FCC0171DBBFE5D008659E5 /* hk.jpg */,
+				DCB46B211DBC25AC0027A272 /* Kyoto Attractions.jpg */,
+				04FCC0181DBBFE5D008659E5 /* kyoto.jpg */,
+				04FCC0191DBBFE5D008659E5 /* sydney.jpg */,
+				04FCC01A1DBBFE5D008659E5 /* ny.jpg */,
+				DCB46B231DBC4B8E0027A272 /* share.png */,
+				816067941DBBE6EC003580EE /* Info.plist */,
+			);
+			path = "CX Travel";
+			sourceTree = "<group>";
+		};
+		8160679C1DBBE6EC003580EE /* CX TravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				8160679D1DBBE6EC003580EE /* CX_TravelTests.swift */,
+				8160679F1DBBE6EC003580EE /* Info.plist */,
+			);
+			path = "CX TravelTests";
+			sourceTree = "<group>";
+		};
+		816067A71DBBE6EC003580EE /* CX TravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				816067A81DBBE6EC003580EE /* CX_TravelUITests.swift */,
+				816067AA1DBBE6EC003580EE /* Info.plist */,
+			);
+			path = "CX TravelUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		816067821DBBE6EC003580EE /* CX Travel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816067AD1DBBE6EC003580EE /* Build configuration list for PBXNativeTarget "CX Travel" */;
+			buildPhases = (
+				8160677F1DBBE6EC003580EE /* Sources */,
+				816067801DBBE6EC003580EE /* Frameworks */,
+				816067811DBBE6EC003580EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CX Travel";
+			productName = "CX Travel";
+			productReference = 816067831DBBE6EC003580EE /* CX Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		816067981DBBE6EC003580EE /* CX TravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816067B01DBBE6EC003580EE /* Build configuration list for PBXNativeTarget "CX TravelTests" */;
+			buildPhases = (
+				816067951DBBE6EC003580EE /* Sources */,
+				816067961DBBE6EC003580EE /* Frameworks */,
+				816067971DBBE6EC003580EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8160679B1DBBE6EC003580EE /* PBXTargetDependency */,
+			);
+			name = "CX TravelTests";
+			productName = "CX TravelTests";
+			productReference = 816067991DBBE6EC003580EE /* CX TravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		816067A31DBBE6EC003580EE /* CX TravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 816067B31DBBE6EC003580EE /* Build configuration list for PBXNativeTarget "CX TravelUITests" */;
+			buildPhases = (
+				816067A01DBBE6EC003580EE /* Sources */,
+				816067A11DBBE6EC003580EE /* Frameworks */,
+				816067A21DBBE6EC003580EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				816067A61DBBE6EC003580EE /* PBXTargetDependency */,
+			);
+			name = "CX TravelUITests";
+			productName = "CX TravelUITests";
+			productReference = 816067A41DBBE6EC003580EE /* CX TravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8160677B1DBBE6EC003580EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Yao Qingning";
+				TargetAttributes = {
+					816067821DBBE6EC003580EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A2A2EBX5NY;
+						ProvisioningStyle = Automatic;
+					};
+					816067981DBBE6EC003580EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A2A2EBX5NY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816067821DBBE6EC003580EE;
+					};
+					816067A31DBBE6EC003580EE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = A2A2EBX5NY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 816067821DBBE6EC003580EE;
+					};
+				};
+			};
+			buildConfigurationList = 8160677E1DBBE6EC003580EE /* Build configuration list for PBXProject "CX Travel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8160677A1DBBE6EC003580EE;
+			productRefGroup = 816067841DBBE6EC003580EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				816067821DBBE6EC003580EE /* CX Travel */,
+				816067981DBBE6EC003580EE /* CX TravelTests */,
+				816067A31DBBE6EC003580EE /* CX TravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		816067811DBBE6EC003580EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81219CB11DBC69840094D9C7 /* 透明Air ticket.png in Resources */,
+				04FCC01D1DBBFE5D008659E5 /* kyoto.jpg in Resources */,
+				04FCC01C1DBBFE5D008659E5 /* hk.jpg in Resources */,
+				81219CB31DBC69840094D9C7 /* 透明Hotel.png in Resources */,
+				04FCC01B1DBBFE5D008659E5 /* hawaii.jpg in Resources */,
+				81219CAB1DBC69840094D9C7 /* Explore Bottom.png in Resources */,
+				DCB46B221DBC25AC0027A272 /* Kyoto Attractions.jpg in Resources */,
+				816067931DBBE6EC003580EE /* LaunchScreen.storyboard in Resources */,
+				81219CAF1DBC69840094D9C7 /* Place2.png in Resources */,
+				04FCC01F1DBBFE5D008659E5 /* ny.jpg in Resources */,
+				DCB46B201DBC25420027A272 /* 1.jpeg in Resources */,
+				81219CB21DBC69840094D9C7 /* 透明Attraction.png in Resources */,
+				DCB46B241DBC4B8E0027A272 /* share.png in Resources */,
+				81219CAE1DBC69840094D9C7 /* Place1.png in Resources */,
+				81219CAA1DBC69840094D9C7 /* APP Logo Final.png in Resources */,
+				DCB46B1E1DBC24F60027A272 /* kyoto-is-home-to-incredible-temples-such-as-the-byodo-in-buddhist-temple-a-unesco-world-heritage-site.jpg in Resources */,
+				816067901DBBE6EC003580EE /* Assets.xcassets in Resources */,
+				8160678E1DBBE6EC003580EE /* Main.storyboard in Resources */,
+				04FCC01E1DBBFE5D008659E5 /* sydney.jpg in Resources */,
+				81219CB01DBC69840094D9C7 /* Place3.png in Resources */,
+				81219CAD1DBC69840094D9C7 /* People Bottom.png in Resources */,
+				81219CAC1DBC69840094D9C7 /* Journal Bottom0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816067971DBBE6EC003580EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816067A21DBBE6EC003580EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8160677F1DBBE6EC003580EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81219C9D1DBC5A780094D9C7 /* HomeViewController.swift in Sources */,
+				8160678B1DBBE6EC003580EE /* SecondViewController.swift in Sources */,
+				816067871DBBE6EC003580EE /* AppDelegate.swift in Sources */,
+				81219C9F1DBC5CB60094D9C7 /* HomeViewControllerTableViewCell.swift in Sources */,
+				816067891DBBE6EC003580EE /* FirstViewController.swift in Sources */,
+				04FCC0211DBC0001008659E5 /* FirstViewControllerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816067951DBBE6EC003580EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8160679E1DBBE6EC003580EE /* CX_TravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		816067A01DBBE6EC003580EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816067A91DBBE6EC003580EE /* CX_TravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8160679B1DBBE6EC003580EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816067821DBBE6EC003580EE /* CX Travel */;
+			targetProxy = 8160679A1DBBE6EC003580EE /* PBXContainerItemProxy */;
+		};
+		816067A61DBBE6EC003580EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 816067821DBBE6EC003580EE /* CX Travel */;
+			targetProxy = 816067A51DBBE6EC003580EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8160678C1DBBE6EC003580EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8160678D1DBBE6EC003580EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		816067911DBBE6EC003580EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				816067921DBBE6EC003580EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		816067AB1DBBE6EC003580EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		816067AC1DBBE6EC003580EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		816067AE1DBBE6EC003580EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2A2EBX5NY;
+				INFOPLIST_FILE = "CX Travel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VVVFO.CX-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		816067AF1DBBE6EC003580EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2A2EBX5NY;
+				INFOPLIST_FILE = "CX Travel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VVVFO.CX-Travel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		816067B11DBBE6EC003580EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A2A2EBX5NY;
+				INFOPLIST_FILE = "CX TravelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VVVFO.CX-TravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CX Travel.app/CX Travel";
+			};
+			name = Debug;
+		};
+		816067B21DBBE6EC003580EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A2A2EBX5NY;
+				INFOPLIST_FILE = "CX TravelTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VVVFO.CX-TravelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CX Travel.app/CX Travel";
+			};
+			name = Release;
+		};
+		816067B41DBBE6EC003580EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A2A2EBX5NY;
+				INFOPLIST_FILE = "CX TravelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VVVFO.CX-TravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CX Travel";
+			};
+			name = Debug;
+		};
+		816067B51DBBE6EC003580EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A2A2EBX5NY;
+				INFOPLIST_FILE = "CX TravelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VVVFO.CX-TravelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "CX Travel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8160677E1DBBE6EC003580EE /* Build configuration list for PBXProject "CX Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816067AB1DBBE6EC003580EE /* Debug */,
+				816067AC1DBBE6EC003580EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816067AD1DBBE6EC003580EE /* Build configuration list for PBXNativeTarget "CX Travel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816067AE1DBBE6EC003580EE /* Debug */,
+				816067AF1DBBE6EC003580EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816067B01DBBE6EC003580EE /* Build configuration list for PBXNativeTarget "CX TravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816067B11DBBE6EC003580EE /* Debug */,
+				816067B21DBBE6EC003580EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		816067B31DBBE6EC003580EE /* Build configuration list for PBXNativeTarget "CX TravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				816067B41DBBE6EC003580EE /* Debug */,
+				816067B51DBBE6EC003580EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8160677B1DBBE6EC003580EE /* Project object */;
+}
